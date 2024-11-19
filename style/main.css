@@ -1,0 +1,112 @@
+.title-w{
+    font-family: var(--font-family-b);
+    letter-spacing: 3px;
+    margin-bottom: 12px;
+    display: flex;
+    padding-top: 55px;
+}
+.subtitle{
+    display: flex;
+    flex-direction: column;
+    font-family: var(--font-family-ql);
+    font-weight: bold;
+    font-size:45px;
+}
+.subw1{
+    margin-top: 0px;
+    margin-bottom: 3px;
+}
+.subw2{
+    margin-top: 2px;
+    margin-bottom: 0px;
+}
+.container-main{
+    margin: 0px 8em;
+    padding-bottom: 55px;
+}
+.mainr{
+    background-image: url(../icons/8-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.button-view{
+    font-family: var(--font-family-b);
+    background: none;
+    border-color: black;
+    width: 135px;
+    height: 43px;
+    /**/
+    cursor: pointer;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    transition: all 0.3s ease;  
+    border: 0;
+    /*--------------------------ДОБАВЛЕНО--------------------------*/
+    /*border: unset;
+    color: #212121;
+    z-index: 1;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms;
+    overflow: hidden;
+    /*---------------------------------------------------------------*/
+}
+
+.button-view:hover {
+
+    background-color: hsl(262, 12%, 70%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(185, 181, 195) 0px 7px 29px 0px;
+  }
+  
+.button-view:active{
+    background-color: hsl(260, 14%, 70%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(176, 170, 186) 0px 0px 0px 0px;
+    transform: translateY(10px);
+    transition: 100ms;
+  }
+
+
+/* УБРАТЬ ИЗ КОМЕНТИРОВАНИЯ. Т.К. ЭТО ОСНОВНОЙ КОД.button-view:focus,
+.button-view:hover{
+    background: white;
+    transition: .3s ease;
+}*/
+.subtext p{
+    margin: 3px 0px;
+}
+.subtext{
+    margin: 30px 0px;
+    font-size: 17px;
+}
+/*------------------------------------------------------------*/
+
+@media (max-width: 800px){
+    .title-w{
+        font-size: 10px;
+        padding-top: 20px;
+        font-family: var(--font-family-b);
+    }
+    .container-main{
+        margin: 0px 2em;
+        padding-bottom: 19px;
+    }
+    .subtitle{
+        font-size: 16px;
+        font-family: var(--font-family-b);
+    }
+    .subtext{
+        margin: 15px 0px;
+        font-size: 12px;
+    }
+    .button-view{
+        width: 144px;
+        height: 44px;
+        box-shadow: rgb(0 0 0 / 15%) 0 0 8px;
+    }
+    
+    .subtext p{
+        font-family: var(--font-family-m);
+        margin: 0px;
+    }
+}

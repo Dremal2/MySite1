@@ -1,0 +1,132 @@
+.contact-btn{
+    font-family: var(--font-family-b);
+    background: none;
+    border-color: white;
+    width: 135px;
+    height: 43px;
+    color: white;
+}
+.contact-btn:focus,
+.contact-btn:hover{
+    background: rgb(158, 144, 144);
+    opacity: .45;
+    transition: .4s ease;
+}
+.end-container{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+.copyright{
+    color: white;
+}
+.INTERIOR{
+    font-family: var(--font-family-m);
+    font-size: 68px;
+    color: white;
+    letter-spacing: 18px;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+    margin-top: 1.35em;
+}
+.inter-img{
+   /* width: 1000px;
+    height: 700px;*/
+    width: 1200px;
+    height: 800px;
+}
+.inimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-105px);    
+    z-index: 0;
+}
+.end-btn{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -8em;
+    align-items: center;
+    height: 150px;
+    background: black;
+    
+}
+.Copyright{
+    display: inline-flex;
+    color: white;
+    font-family: var(--font-family-m);
+    margin-left: 10em;
+}
+.social-media2{
+    display: inline-flex;
+    margin-right: 11em;
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(7459%) hue-rotate(200deg) brightness(111%) contrast(109%);
+}
+.end-info{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: -5em;
+}
+.link1,
+.link2,
+.link3{
+    text-decoration: none;
+}
+.link1{
+    margin-right: 40px;
+}
+.link2{
+    margin-right: 40px;
+}
+.ht-line{
+    box-shadow: white 0px 0px 1px;
+}
+.hr-line{
+    position: relative;
+    top: -7em;
+}
+@media (max-width: 800px){
+    .inter-img{
+        display: flex;
+        width: 550px;
+        height: 392px;
+        padding-top: 15px;
+    }
+    .hr-line{
+        top: -14em;
+    }
+    .INTERIOR{
+        font-size: 25px;
+        margin-top: 36px;
+    }   
+    .end-container {
+        width: 100%;
+        height: 100vh;
+    }
+    .end-btn{
+        top: -9%;
+    }
+    .end-info{
+        top: -13%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .Copyright{
+        margin-left: 3em;
+        font-size: 14px;
+    }
+    .social-media2{
+        margin-right: 3em;
+    }
+    .social-media2 img{
+        width: 16px;
+        height: 16px;
+        margin-top: 1em;
+    }
+    .inimg{
+        margin-top: 50px;
+    }
+}

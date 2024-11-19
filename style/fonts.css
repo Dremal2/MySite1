@@ -1,0 +1,14 @@
+@font-face {
+    font-family: DMB;
+    src: url('../fonts/DMSans_18pt-Bold.ttf');
+}
+
+@font-face {
+    font-family: DMM;
+    src: url('../fonts/DMSans_18pt-Medium.ttf');
+}
+
+@font-face {
+    font-family: QR;
+    src: url('../fonts/Questrial-Regular.ttf');
+}
